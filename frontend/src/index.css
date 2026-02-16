@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --background: 230 15% 8%;
+  --foreground: 210 40% 98%;
+  --muted: 230 12% 14%;
+  --muted-foreground: 215 15% 70%;
+  --border: 230 12% 20%;
+  --ring: 210 30% 70%;
+  --accent: 210 90% 45%;
+  --accent-foreground: 210 40% 98%;
+  --primary: 197 90% 45%;
+  --primary-foreground: 210 40% 98%;
+  --card: 230 14% 10%;
+  --card-foreground: 210 40% 98%;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: "Manrope", system-ui, sans-serif;
+}

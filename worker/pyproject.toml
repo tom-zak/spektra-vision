@@ -1,0 +1,18 @@
+[project]
+name = "spektra-worker"
+version = "0.1.0"
+description = "Spektra worker"
+requires-python = ">=3.10"
+dependencies = [
+  "celery>=5.4.0",
+  "redis>=5.0.0",
+  "pydantic-settings>=2.2.0",
+  "SQLAlchemy>=2.0.28",
+  "asyncpg>=0.29.0",
+  "boto3>=1.34.0",
+  "ultralytics>=8.3.0",
+  "pyyaml>=6.0.1",
+]
+
+[tool.ruff]
+line-length = 100
