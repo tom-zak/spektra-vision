@@ -6,6 +6,8 @@ Image annotation platform for object detection and segmentation, powered by a
 FastAPI backend, React + Konva frontend, and a Celery worker that runs YOLO
 training and inference.
 
+![Screenshots](/screenshots)
+
 ## Architecture
 
 ```
